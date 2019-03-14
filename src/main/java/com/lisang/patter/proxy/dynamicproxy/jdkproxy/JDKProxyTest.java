@@ -20,10 +20,10 @@ public class JDKProxyTest {
             method.invoke(obj);
 
             //$Proxy0
-            byte [] bytes = ProxyGenerator.generateProxyClass("$Proxy0",new Class[]{Person.class});
-            FileOutputStream os = new FileOutputStream("E://$Proxy0.class");
-            os.write(bytes);
-            os.close();
+            //byte [] bytes = ProxyGenerator.generateProxyClass("$Proxy0",new Class[]{Person.class});
+            //FileOutputStream os = new FileOutputStream("E://$Proxy0.class");
+            //os.write(bytes);
+            //os.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
